@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="108.10119mm"
+   height="108.10119mm"
+   viewBox="0 0 108.10119 108.10119"
+   version="1.1"
+   id="svg62">
+  <defs
+     id="defs56">
+    <rect
+       x="93.738098"
+       y="73.138394"
+       width="15.875"
+       height="12.284227"
+       id="rect1072" />
+  </defs>
+  <metadata
+     id="metadata59">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(-52.160717,-32.88393)">
+    <circle
+       style="fill:#1a1a1a;stroke-width:0.257383"
+       id="path132"
+       cx="106.21131"
+       cy="86.934525"
+       r="54.050594" />
+    <path
+       style="fill:#3edd4b;fill-opacity:1;stroke-width:0.999999"
+       d="m 489.61914,340 a 88.928572,88.928572 0 0 1 -76.76172,76.76172 v 95.74023 A 184.28572,184.28572 0 0 0 585.35938,340 Z"
+       transform="scale(0.26458333)"
+       id="green" />
+    <path
+       style="fill:#dd4b3e;fill-opacity:1;stroke-width:0.999999"
+       d="M 217.49805,340 A 184.28572,184.28572 0 0 0 390,512.50195 V 416.76172 A 88.928572,88.928572 0 0 1 313.23828,340 Z"
+       transform="scale(0.26458333)"
+       id="red" />
+    <path
+       style="fill:#ffea37;fill-opacity:1;stroke-width:0.999999"
+       d="m 390,144.64258 a 184.28572,184.28572 0 0 0 -172.50195,172.5 h 95.74023 A 88.928572,88.928572 0 0 1 390,240.38086 Z"
+       transform="scale(0.26458333)"
+       id="yellow" />
+    <path
+       style="fill:#4b3edd;fill-opacity:1;stroke-width:0.999999"
+       d="m 412.85742,144.64062 v 95.74024 a 88.928572,88.928572 0 0 1 76.76172,76.76172 h 95.74024 A 184.28572,184.28572 0 0 0 412.85742,144.64062 Z"
+       transform="scale(0.26458333)"
+       id="blue" />
+    <circle
+       style="fill:#aaaaaa;fill-opacity:1;stroke-width:0.378791"
+       id="path90"
+       cx="106.21131"
+       cy="86.934525"
+       r="18.804316" />
+  </g>
+</svg>
