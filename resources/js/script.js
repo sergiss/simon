@@ -1,3 +1,6 @@
+/**
+ * 2021 - Sergio Soriano
+ */
 const init = ()=> {
 
     const green  = document.querySelector("#green");

@@ -1,3 +1,6 @@
+/**
+ * 2021 - Sergio Soriano
+ */
 const LIGHT_TIME = 200;
 const STEP_TIME = LIGHT_TIME * 2.0;
 
