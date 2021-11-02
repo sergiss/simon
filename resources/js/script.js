@@ -1,5 +1,7 @@
 /**
  * 2021 - Sergio Soriano
+ * https://github.com/sergiss
+ * www.sergiosoriano.com
  */
 const init = ()=> {
 

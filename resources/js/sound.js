@@ -1,5 +1,7 @@
 /**
  * 2021 - Sergio Soriano
+ * https://github.com/sergiss
+ * www.sergiosoriano.com
  */
 function Sound(src) {
     this.sound = document.createElement("audio");
