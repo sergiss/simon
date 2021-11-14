@@ -83,7 +83,7 @@ class Simon {
     const result = (player) => {
       el.style.filter = "brightness(250%)"; // apply brightness
       sound.stop();
-      sound.play();
+      sound.play(0.05);
       setTimeout(() => {
         // wait to clear brightness
         el.style.filter = "brightness(100%)";
