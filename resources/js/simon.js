@@ -15,7 +15,7 @@ class Simon {
       this.buttons[i] = this.createButton(i, elements[i]);
     }
 
-    this.restart();
+    this.restart();   
   }
 
   animate(i) {
@@ -23,10 +23,12 @@ class Simon {
     if (this.gameState == -1) {
       let el = this.elements[i];
       setTimeout(() => {
-        el.style.filter = "brightness(250%)"; // apply brightness
+        // el.style.filter = "brightness(250%)"; // apply brightness
+        el.style.fillOpacity = "1";
         setTimeout(() => {
           // wait to clear brightness
-          el.style.filter = "brightness(100%)";
+          // el.style.filter = "brightness(100%)";
+          el.style.fillOpacity = "0.5";
           this.animate((i + 1) % 4);
         }, LIGHT_TIME);
       }, 5);
@@ -78,14 +80,17 @@ class Simon {
   };
 
   createButton = function (id, el) {
-    const sound = new Sound(`resources/s${id}.mp3`);
+    const sound = new Sound(`./resources/s${id}.mp3`);
+    el.style.fillOpacity = "0.5";
     const result = (player) => {
-      el.style.filter = "brightness(250%)"; // apply brightness
+      // el.style.filter = "brightness(250%)"; // apply brightness
+      el.style.fillOpacity = "1";
       sound.stop();
       sound.play(0.05);
       setTimeout(() => {
         // wait to clear brightness
-        el.style.filter = "brightness(100%)";
+        // el.style.filter = "brightness(100%)";
+        el.style.fillOpacity = "0.5";
       }, LIGHT_TIME);
       if (player) {
         // if player time
