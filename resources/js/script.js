@@ -13,6 +13,7 @@ const init = ()=> {
     const score = document.querySelector("#score");
 
     const simon = new Simon([blue, green, red, yellow], score);
+    simon.animate();
     
 }
 
@@ -28,7 +29,7 @@ function load(src, callback) {
     xhr.send();
   }
   
-  load("./resources/simon.svg", (data) => {
+  load("resources/simon.svg", (data) => {
     document.querySelector("#simon").innerHTML = data;
     init();
   });
