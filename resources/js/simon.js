@@ -15,8 +15,7 @@ class Simon {
       this.buttons[i] = this.createButton(i, elements[i]);
     }
 
-    this.restart();   
-    this.animate();
+    this.restart();
   }
 
   animate(i) {
@@ -79,7 +78,7 @@ class Simon {
   };
 
   createButton = function (id, el) {
-    const sound = new Sound(`./resources/s${id}.mp3`);
+    const sound = new Sound(`resources/s${id}.mp3`);
     const result = (player) => {
       el.style.filter = "brightness(250%)"; // apply brightness
       sound.stop();
